@@ -1,0 +1,38 @@
+.map-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.cheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    margin:10px 0px;
+}
+.cheader span:nth-child(1){
+    font-weight: bold;
+}
+.view-wide-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    background-color:var(--cardBg);
+    padding:5px 10px;
+    border-radius: 20px;
+    gap:10px;
+    cursor: pointer;
+    transition: 300ms all;
+}
+.view-wide-btn:hover{
+    transform: scale(1.05);
+}
+#map{
+    width:100%;
+    height:300px;
+    margin:5px;
+    border-radius: 20px;
+}

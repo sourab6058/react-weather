@@ -1,0 +1,13 @@
+.ele-grid{
+    display: grid;
+  grid-template-areas:
+    'card-1 card-2'
+    'card-4 card-3';
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height:100%;
+  gap:20px;
+}
+.card-1,  .card-2, .card-3, .card-4, .card{
+  width:100%
+}

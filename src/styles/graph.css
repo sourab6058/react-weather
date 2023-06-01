@@ -1,0 +1,6 @@
+.graph{
+    border: 1px solid var(--activeTextColor); 
+    padding: 10px;
+    min-width: 300px;
+    min-height: 300px;
+}
